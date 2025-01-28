@@ -1,0 +1,12 @@
+weight=input("Enter the weight: ")
+units=input("Killogram or Pounds (K or L): ")
+
+if units=="K":
+    weight*=2.205
+    units="Lbs"
+elif units=="L":
+    weight/=2.205
+    units="Kgs"
+else:
+    print(f"{units} is not valid!")
+print(f"Your weight is:{wight} {units}")
