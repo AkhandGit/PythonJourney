@@ -13,6 +13,7 @@ while rate<=0:
     if rate<=0:
         print("The interest rate should be greater than zero")
 
+        
 while time<=0:
     time=float(input("Enter the time period: "))
     if time<=0:
